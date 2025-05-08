@@ -1,0 +1,2 @@
+employee_id,name,email,user_type,phone,apex,location_id,manager_id,permissions
+10,test_name3121,testname@gmail.com,itadmin,854141472,1,1,1,"1,2,3,4,5,6"
