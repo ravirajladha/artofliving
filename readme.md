@@ -41,24 +41,23 @@ The Art of Living Project Suite is a collection of Laravel-based applications de
 
 ## Repository Structure
 ```
-Art-of-Living/
+artofliving/
 ├── samruddhi/          # Asset management system
 ├── pragati/            # Organizational management system
 ├── sanidhya/           # Ticket purchase and distribution system
 ├── images/             # Screenshots for README
-├── .env.example        # Environment configuration template
-├── .gitignore          # Git ignore rules
+├── prjectwise/.env        # Environment configuration template
 └── README.md           # This file
 ```
 
-## Screenshots
+<!-- ## Screenshots
 Below are snapshots of the projects’ key features:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="images/samruddhi-asset-tracking.png" alt="Samruddhi Asset Tracking" width="300" />
   <img src="images/pragati-user-management.png" alt="Pragati User Management" width="300" />
   <img src="images/sanidhya-ticket-creation.png" alt="Sanidhya Ticket Creation" width="300" />
-</div>
+</div> -->
 
 - **Samruddhi Asset Tracking**: Manage assets with metadata and categories.
 - **Pragati User Management**: Administer users with role-based permissions.
@@ -77,13 +76,13 @@ Each project (`samruddhi/`, `pragati/`, `sanidhya/`) has its own setup. Below is
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ravirajladha/Art-of-Living.git
-   cd Art-of-Living/sanidhya
+   git clone https://github.com/ravirajladha/artofliving.git
+   cd artofliving/sanidhya
    ```
    On Windows:
    ```powershell
-   git clone https://github.com/ravirajladha/Art-of-Living.git
-   cd Art-of-Living\sanidhya
+   git clone https://github.com/ravirajladha/artofliving.git
+   cd artofliving\sanidhya
    ```
 2. **Install Dependencies**:
    ```bash
@@ -156,7 +155,7 @@ Each project (`samruddhi/`, `pragati/`, `sanidhya/`) has its own setup. Below is
   git commit -m "Remove sensitive files"
   ```
 
-## Demo
+<!-- ## Demo
 Explore the Art of Living projects through demo series:
 - [Samruddhi Demo Series](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID)
 - [Pragati Demo Series](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID)
@@ -164,7 +163,7 @@ Explore the Art of Living projects through demo series:
 Videos cover:
 1. Samruddhi: Asset tracking and reporting.
 2. Pragati: User and apex body management.
-3. Sanidhya: Ticket creation and WhatsApp integration.
+3. Sanidhya: Ticket creation and WhatsApp integration. -->
 
 ## Testing
 - Run Laravel tests for each project:
